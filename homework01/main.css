@@ -1,0 +1,126 @@
+
+body{
+    background-color: #f7ede2;
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: 16px;    
+    line-height: 1.4;
+    color:#4a5759;
+}
+hr{
+    border: 5px solid #84a59d;
+}
+.tooltip{
+    color: #090a0b;
+    text-align: center;
+    height: 20%;
+    background-image: url(img/hb2.jpg);
+}
+footer{
+     background-color: #84a59d;
+    text-align: center;
+    color: #090a0b;
+}
+.tooltip p{
+    display: inline;
+    max-width: 1140px;
+    width: 85%;
+    margin: 0 auto;
+    font-weight: bolder;
+    font-style: italic;
+}
+.i_header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+}
+#profile{
+    border-radius: 50%;
+    width: 15%;
+    height: 15%;
+    float: right;
+     object-fit: cover;
+    margin-left: 20px;
+}
+ .i_header .text-container {
+    max-width: 600px;
+  }
+
+  .i_header h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+    text-align: center;
+    color: #84a59d;
+  }
+
+  .i_header p {
+    margin: 10px 0 0 0;
+    text-align: center;
+  }
+
+  .i_header a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #edafb8;
+    text-align: center;
+  }
+
+.workspace{
+    background-color: #f5cac3;
+}
+
+table{
+padding: auto;
+border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: center;
+  padding: 16px;
+  color: #4a5759;
+}
+
+tr:nth-child(even) {
+  background-color: #f28482;
+}
+
+ li{
+    list-style-position: inside; 
+}
+h2{
+    text-align: center;
+}
+.hobbies{
+    text-align: center;
+}
+.edu_jobs{
+    text-align: center;
+}
+
+.edu_jobs li,ul{
+        list-style-position: inside; 
+        text-align: center;
+}
+a{
+    color: #4a5759;
+    text-decoration: none;
+}
+.sites a{
+    text-align: center;
+}
+lh{
+    font-size: large;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.hobbies, .edu_jobs, .sites{
+    width: 30%;
+}
