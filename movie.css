@@ -1,0 +1,124 @@
+body{
+    background-image: url('img/background.png');
+    font-size: 8pt;
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#banner_container{
+    background-image: url("img/bannerbackground.png");
+    background-repeat: repeat-x;
+    height: 50px;
+    text-align: center;
+}
+h1{
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 24pt;
+    font-weight: bold;
+    text-align: center;
+}
+#content{
+    width: 800px;
+    text-align: center;
+    border: 4px solid gray;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#ratings{
+    background-image: url('img/rottenbackground.png');
+    background-repeat: repeat-x;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.score{
+    font-size: 48pt;
+    color: red;
+    font-weight: bold;
+}
+.amount{
+    color: white;
+    margin-right: 10px;
+}
+#reviews_overview{
+    width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    justify-content:space-evenly;
+}
+.review_column{
+width: 47%;
+float: left;
+box-sizing: border-box;
+}
+.review_box{
+    font-weight: bold;
+    background-color: #e1d697;
+    border: 2px solid gray;
+    padding: 8px;
+    box-sizing: border-box;
+    display: flex;
+}
+.review_box img{
+    text-align: left;
+    margin-right: 5px;
+    height: 25px;
+    width: 25px;
+}
+.info{
+    font-style: italic;
+    line-height: 1.2;
+    text-align: left;
+}
+.details{
+    display: flex;
+    align-items: left;
+    padding: 10px;
+     margin-bottom: 2%;
+     justify-content: left;
+
+}
+.general_overview{
+    width: 250px;
+    background-color: #a2b964;
+    font-family: Arial, sans-serif;
+}
+.general_overview img{
+    display: block;
+    margin: 0 auto;
+}
+.general_overview dt{
+    font-weight: bolder;
+    text-align: left;
+    padding-bottom: 3px;
+}
+.general_overview dd{
+    text-align: left;
+    padding-left: 5px;
+    padding-bottom: 6px;
+}
+.general_overview dl{
+    margin: 0;
+    padding-left: 4%;
+    padding-top: 5%;
+}
+.general_overview a {
+    text-decoration: none;
+    color: black;
+}
+#review-bar {
+    text-align: center;
+    background-color: #a2b964;
+    padding: 2px;
+    width: 100%;
+    box-sizing: border-box;
+}
+#validators{
+    display: block;
+    text-align: right;
+
+}
